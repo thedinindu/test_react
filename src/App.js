@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Body from './components/Body'
+import State from './components/State'
+import State2 from './components/State2'
+import State3 from './components/State3'
+import StateCard from './components/StateCard'
+import StateBox from './components/StateBox'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <State />
+      <State2 />
+      <State3 />
+      <StateCard />
+      <StateBox />
+    </>
   );
 }
 
